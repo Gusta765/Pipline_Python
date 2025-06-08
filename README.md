@@ -5,8 +5,9 @@ Este projeto acadêmico implementa um pipeline robusto com **carga incremental i
 
 Desenvolvido em Python com SQLAlchemy, o sistema processa dados de transações financeiras de forma automatizada, garantindo integridade, performance e escalabilidade.
 
-# 📊 Estrutura dos Dados Processados
-![image](https://github.com/user-attachments/assets/your-database-schema-image)
+📊 Estrutura de Dados Processados
+CampoTipoDescriçãoValidação_idString(255)Identificador único (PK)ObrigatórioamountDecimal(10,2)Valor monetárioPrecisão financeiraestimated_dateDateTimeData estimadaConversão segurapayment_dateDateTimeData pagamentoTratamento de nulosstatusString(255)Status da transaçãoEnum controladoyear_refIntegerAno de referênciaValidação numéricamonth_refIntegerMês de referênciaRange 1-12
+
 
 ## 🎯 Objetivo
 Demonstrar a aplicação de **boas práticas de engenharia de dados** através de:
